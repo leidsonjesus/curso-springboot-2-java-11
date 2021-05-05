@@ -21,6 +21,7 @@ import com.leidsonjesus.curso.repositories.OrderRepository;
 import com.leidsonjesus.curso.repositories.ProductRepository;
 import com.leidsonjesus.curso.repositories.UserRepository;
 
+
 @Configuration
 @Profile("test")
 public class TesteConfig implements CommandLineRunner{
